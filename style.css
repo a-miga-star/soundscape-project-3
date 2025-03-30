@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+.soundboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.sound-button {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.sound-button:hover {
+  transform: scale(1.05);
+}
